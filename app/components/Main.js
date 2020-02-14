@@ -29,10 +29,10 @@ import { addNewTask, deleteTask } from '../actions/index'
       let notes = <Note navigation={this.props.navigation} deleteMethod={(index)=>this.props.onDeleteTodo(index)} arrays={this.props.noteArray}/>
 
     return(
-        // <Text>Jay aayush bunty sunil</Text>
+
       <View style={styles.container}>
          <View style={styles.header}>
-            <Text style={styles.headerText}>NOTER</Text>        
+            <Text style={styles.headerText}>TODO</Text>        
          </View>
          <ScrollView style={styles.scrollContainer}>
              {notes}
@@ -78,14 +78,14 @@ const styles = StyleSheet.create({
     flex:1,
     },
     header:{
-        backgroundColor:'#3299a8',
+        backgroundColor:'rgb(10, 25, 47)',
         alignItems:'center',
         justifyContent:'center',
         borderBottomWidth:10,
         borderBottomColor:'#ddd',
     },
     headerText:{
-        color:'white',
+        color:'rgb(100, 255, 218)',
         fontSize:18,
         padding:26,
     },
@@ -102,9 +102,9 @@ const styles = StyleSheet.create({
     },
     textInput: {
         alignSelf:'stretch',
-        color: '#f2f2f2',
+        color: 'rgb(100, 255, 218)',
         padding:20,
-        backgroundColor:'#252525',
+        backgroundColor:'rgb(10, 25, 47)',
         borderTopWidth:2,
         borderTopColor:'#ededed',
     },
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
         zIndex:11,
         right:20,
         bottom:90,
-        backgroundColor:'#3299a8',
+        backgroundColor:'#rgb(10, 25, 47)',
         width:70,
         height:70,
         borderRadius:50,
@@ -122,8 +122,9 @@ const styles = StyleSheet.create({
         elevation:8,
     },
     addButtonText:{
-        color:'#fff',
+        color:'rgb(100, 255, 218)',
         fontSize:24,
+
     },
 });
 

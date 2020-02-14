@@ -23,7 +23,7 @@ export default class Note extends Component {
     console.log("this.props.arrays", this.props.arrays);
     return this.props.arrays.map((val, index) => {
       return (
-        <React.Fragment>
+        
           <View key={index} style={styles.note}>
             <Text style={styles.noteText}>{val}</Text>
 
@@ -44,7 +44,7 @@ export default class Note extends Component {
               <Text style={styles.noteDeleteText}>X</Text>
             </TouchableOpacity>
           </View>
-        </React.Fragment>
+        
       );
     });
   }
@@ -57,18 +57,24 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingRight: 100,
     borderBottomWidth: 2,
-    borderBottomColor: "#ededed"
+    borderBottomColor: "#ededed",
+    backgroundColor:'rgb(10, 25, 47)'
   },
   noteText: {
     paddingLeft: 20,
     borderLeftWidth: 10,
-    borderLeftColor: "#E91E63"
+    borderLeftColor: "#E91E63",
+    color:'rgb(100, 255, 218)'
+  },
+
+  bg:{
+    
   },
   noteDelete: {
     position: "absolute",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#2980b9",
+    backgroundColor: "rgb(10, 25, 47)",
     padding: 10,
     top: 10,
     bottom: 10,
@@ -78,16 +84,16 @@ const styles = StyleSheet.create({
     position: "absolute",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#2980b9",
+    backgroundColor: "rgb(10, 25, 47)",
     padding: 10,
     top: 10,
     bottom: 10,
     right: 40
   },
   noteDeleteText: {
-    color: "white"
+    color: "rgb(100, 255, 218)"
   },
   noteEditText: {
-    color: "white"
+    color: "rgb(100, 255, 218)"
   }
 });

@@ -60,15 +60,17 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingRight: 100,
     borderBottomWidth: 2,
-    borderBottomColor: "#ededed"
-  },
+    borderBottomColor: "rgb(100, 255, 218)",
+    backgroundColor:'rgb(10, 25, 47)',
+    color:'rgb(100, 255, 218)'
+ },
   noteText: {
     paddingLeft: 20,
     borderLeftWidth: 10,
-    borderLeftColor: "green"
+    borderLeftColor: "rgb(100, 255, 218)"
   },
   buttonUpdate:{
-    backgroundColor: "#3299a8",
+    backgroundColor: "rgb(10, 25, 47)",
     textAlign:"center",
     marginTop:10,
     marginRight:70,
@@ -76,7 +78,7 @@ const styles = StyleSheet.create({
     height:40,
     paddingTop:10,
     borderRadius:50,
-    color:'#fff',
+    color:'rgb(100, 255, 218)',
     fontSize:14
   }
 });
