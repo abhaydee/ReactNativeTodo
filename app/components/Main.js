@@ -76,13 +76,14 @@ const mapDispatchToProps = dispatch => {
 const styles = StyleSheet.create({
     container:{
     flex:1,
+    backgroundColor:'rgb(10, 25, 47)'
     },
     header:{
         backgroundColor:'rgb(10, 25, 47)',
         alignItems:'center',
         justifyContent:'center',
         borderBottomWidth:10,
-        borderBottomColor:'#ddd',
+        borderBottomColor:'rgb(100, 255, 218)',
     },
     headerText:{
         color:'rgb(100, 255, 218)',
@@ -113,7 +114,7 @@ const styles = StyleSheet.create({
         zIndex:11,
         right:20,
         bottom:90,
-        backgroundColor:'#rgb(10, 25, 47)',
+        backgroundColor:'rgb(100, 255, 218)',
         width:70,
         height:70,
         borderRadius:50,
@@ -122,7 +123,7 @@ const styles = StyleSheet.create({
         elevation:8,
     },
     addButtonText:{
-        color:'rgb(100, 255, 218)',
+        color:'rgb(10, 25, 47)',
         fontSize:24,
 
     },

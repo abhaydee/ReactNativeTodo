@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
   noteText: {
     paddingLeft: 20,
     borderLeftWidth: 10,
-    borderLeftColor: "rgb(100, 255, 218)"
+    borderLeftColor: "rgb(100, 255, 218)",
+    color:'rgb(100, 255, 218)'
   },
   buttonUpdate:{
     backgroundColor: "rgb(10, 25, 47)",

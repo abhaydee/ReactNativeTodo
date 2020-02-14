@@ -57,13 +57,13 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingRight: 100,
     borderBottomWidth: 2,
-    borderBottomColor: "#ededed",
+    borderBottomColor: "rgb(100, 255, 218)",
     backgroundColor:'rgb(10, 25, 47)'
   },
   noteText: {
     paddingLeft: 20,
     borderLeftWidth: 10,
-    borderLeftColor: "#E91E63",
+    borderLeftColor: "rgb(100, 255, 218)",
     color:'rgb(100, 255, 218)'
   },
 
