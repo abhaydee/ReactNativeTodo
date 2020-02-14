@@ -25,7 +25,7 @@ import { addNewTask, deleteTask } from '../actions/index'
     //  }
 
   render() {
-    //   console.log(this.props.noteArray, "aayush agrawal");
+
       let notes = <Note navigation={this.props.navigation} deleteMethod={(index)=>this.props.onDeleteTodo(index)} arrays={this.props.noteArray}/>
 
     return(
